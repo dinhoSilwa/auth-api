@@ -1,9 +1,9 @@
-import type { Document } from 'mongoose';
+import type { Document } from 'mongoose'
 
 export interface UserAuthType extends Document {
-  name: string;
-  email: string;
-  password: string;
-  createdAt: Date;
-  updatedAt: Date;
+  name: string
+  email: string
+  password: string
+  createdAt: Date
+  updatedAt: Date
 }
