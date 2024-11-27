@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "claudio silva <claudiosilva.one@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
 }
