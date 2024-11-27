@@ -1,5 +1,5 @@
-import { model, Schema } from 'mongoose';
-import type { UserAuthType } from '../../@types/auth/authTypes';
+import { model, Schema } from 'mongoose'
+import type { UserAuthType } from '../../@types/auth/authTypes'
 
 export const UseModel = new Schema(
   {
@@ -23,6 +23,6 @@ export const UseModel = new Schema(
   {
     timestamps: true,
   },
-);
+)
 
-export const UseModelSchema = model<UserAuthType>('credential-users', UseModel);
+export const UseModelSchema = model<UserAuthType>('credential-users', UseModel)
