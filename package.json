@@ -5,6 +5,7 @@
   "author": "claudio silva <claudiosilva.one@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node dist/app.js",
     "start:dev": "nodemon",
     "format": "prettier --write src/**/*.ts",
     "lint": "eslint --fix"
