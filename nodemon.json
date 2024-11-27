@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "yarn lint && yarn format && tsx src/server.ts",
+  "restartable": "rs",
+  "verbose": true
+}

@@ -26,7 +26,6 @@ Este é um guia passo a passo para criar um sistema de cadastro de **nome**, **e
      - **senha** (string, com hash)
    - Adicione validações:
      - E-mail único.
-     - Método para comparar a senha fornecida com o hash.
 
 ---
 
