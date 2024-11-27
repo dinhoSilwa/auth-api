@@ -1,1 +1,1 @@
-console.log("Rodando o nodemon")
+console.log('Hello Word!');

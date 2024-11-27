@@ -11,10 +11,6 @@
     "skipLibCheck": true, // Ignorar checagem de tipos em arquivos `.d.ts`
     "resolveJsonModule": true // Permitir importação de arquivos JSON
   },
-  "include": [
-    "src"
-  ], // Incluir a pasta `src` no processo de compilação
-  "exclude": [
-    "node_modules"
-  ] // Excluir a pasta `node_modules`
+  "include": ["src"], // Incluir a pasta `src` no processo de compilação
+  "exclude": ["node_modules"] // Excluir a pasta `node_modules`
 }
