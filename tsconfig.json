@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Transpilar para a versão mais recente do ECMAScript
+    "module": "ESNext", // Usar ES Modules no Node.js
+    "moduleResolution": "Node", // Resolver módulos no estilo do Node.js
+    "outDir": "./dist", // Pasta de saída para os arquivos compilados
+    "rootDir": "./src", // Diretório raiz para os arquivos TypeScript
+    "strict": true, // Ativar verificações rigorosas
+    "esModuleInterop": true, // Melhor compatibilidade com CommonJS
+    "forceConsistentCasingInFileNames": true, // Enforce case-sensitive imports
+    "skipLibCheck": true, // Ignorar checagem de tipos em arquivos `.d.ts`
+    "resolveJsonModule": true // Permitir importação de arquivos JSON
+  },
+  "include": [
+    "src"
+  ], // Incluir a pasta `src` no processo de compilação
+  "exclude": [
+    "node_modules"
+  ] // Excluir a pasta `node_modules`
+}

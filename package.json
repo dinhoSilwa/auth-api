@@ -5,6 +5,9 @@
   "author": "claudio silva <claudiosilva.one@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^3.4.1"
+    "@types/node": "^22.10.0",
+    "prettier": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   }
 }
