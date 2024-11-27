@@ -1,0 +1,7 @@
+{
+  "name": "jwt_validator_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "claudio silva <claudiosilva.one@gmail.com>",
+  "license": "MIT"
+}
