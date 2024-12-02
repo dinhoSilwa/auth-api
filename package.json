@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node dist/app.js",
     "start:dev": "nodemon",
-    "format": "prettier --write src/**/*.ts",
+    "format": "prettier --check src/**/*.ts",
     "lint": "eslint --fix"
   },
   "devDependencies": {
