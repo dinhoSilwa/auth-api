@@ -1,5 +1,5 @@
 import { app } from './app'
-import { MongoDbConnect } from './database/mongodb/db'
+import { MongoDbConnect } from './database/mongodb'
 const PORT = process.env.PORT || 5000
 export const StartServer = async () => {
   try {

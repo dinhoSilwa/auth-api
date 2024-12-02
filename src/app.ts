@@ -1,6 +1,6 @@
 import express, { Application } from 'express'
 import cors from 'cors'
-import { corOptions } from './middlewares/cors/corsOptions'
+import { corOptions } from './middlewares/corsOptions'
 
 export const app: Application = express()
 app.use(cors(corOptions))
